@@ -11,14 +11,21 @@ body {
 	border-radius: 3px;
 	border: 0;
 }
-
+/*Top Banner*/
 #logo-img {
 	background: url('american400.jpg') no-repeat;
 	width: 75px;
 	height: 75px;
-	margin: 5px 10px 5px 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin: 20px 25px 20px 0;
+}
 
-
+img {
+	padding: 3px;
+	border: 3px double #000000;
+	box-shadow: 5px 10px #663300;
+}
 }
 
 .navbar-brand {
@@ -36,6 +43,7 @@ body {
 	margin-bottom: 0;
 	line-height: .75;
 }
+
 
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
@@ -74,6 +82,8 @@ line-height: .75;
 	font-size: 1.8em;
 }
 
+/*
+
 #phone {
 	margin-top: 5px;
 }
@@ -88,6 +98,8 @@ line-height: .75;
 	text-align: right;
 	padding-right: 15px;
 }
+*/
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #61122f;
@@ -106,16 +118,34 @@ h2 {
   margin-bottom: 15px;
   text-align: center;
   border: 5px double black;  
-  font-family: Coronetscript, cursive;
+  font-family: 'Oxygen', sans-serif;
+  text-shadow: 2px 2px 2px #222;
   background-color: #ffff99;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 10px #663300;
 }
 
-.section {
+
+/*.section-item {
 	text-align: center;
+	text-shadow: 3px 3px 3px #222;
 }
+*/
+.center {
+	text-align: center;
+	text-shadow: 3px 3px 3px #222;
+	padding: 5px 0;
+	border: 3px solid;
+	box-shadow: 5px 10px #663300;
+	font-size: 1.6em;
+}
+
+.container {
+	text-shadow: 1px 1px 1px #222;
+}
+
 
 /* Footer */
 .panel-footer {
@@ -180,11 +210,7 @@ h2 {
 	background-position: center;
 }
 
-/*#map-tile {
-	background: url('https://goo.gl/maps/MWHZLw7Nca62') no-repeat;
-	background-position: center;
-}
-*/
+
 #menu-tile span, #specials-tile span, #map-tile span {
 	position: absolute;
 	bottom: 0;
@@ -275,15 +301,17 @@ h3.menu-item-title {
 /* END SINGLE CATEGORY PAGE */
 
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 	.container .jumbotron {
 		background: url('../images/jumbotron_1200.jpg') no-repeat;
 		height: 675px;
 		
 	}
-
+*/
 }
 
+
+/*Medium for Desktop Mockup */
 @media (min-width: 992px) and (max-width: 1199px) {
 	#logo-img {
 		/*background: url('../images/restaurant-logo_medium.png') no-repeat; */
@@ -292,7 +320,7 @@ h3.menu-item-title {
 		margin: 5px 5px 5px 0;
 	}
 
-	.container .jumbotron {
+	/*.container .jumbotron {
 		background: url('../images/jumbotron_992.jpg') no-repeat;
 		height: 558px;
 		
@@ -300,14 +328,15 @@ h3.menu-item-title {
 
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+/*@media (min-width: 768px) and (max-width: 991px) {
 	.container .jumbotron {
 		background: url('../images/jumbotron_768.jpg') no-repeat;
 		height: 432px;
 		
 	}
+*/
 }
-
+/*XS Mockup for tablet */
 @media (max-width: 767px) {
 	.navbar-brand {
 		padding-top: 10px;
@@ -385,8 +414,8 @@ h3.menu-item-title {
 	}
 
 
-
-	@media (max-width: 479px) {
+	/*Mobile Mockup */
+	*@media (max-width: 479px) {
 		.nav-brand h1 {
 			padding-top: 5px;
 			font-size: 6vw;
