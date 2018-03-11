@@ -13,7 +13,7 @@ body {
 }
 /*Top Banner*/
 #logo-img {
-	background: url('american400.jpg') no-repeat;
+	background: url('..module3-solution/images/american400.jpg') no-repeat;
 	width: 75px;
 	height: 75px;
 	margin-left: 10px;
